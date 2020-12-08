@@ -8,16 +8,14 @@ pronounced *ha-co*.
 
 # Installation
 
-1. Download binary from [release page](https://github.com/hikitest/haco/releases),
+1. Build with `go build`.
 
-2. Put it somewhere(like `/usr/local/bin` in Linux),
-
-3. Set environment variables like this.
+2. Set environment variables like this, or edit testenv.sh to add your credentials, and run it with `source testenv.sh`.
 
 ```sh
 export AWS_ACCESS_KEY_ID=C99F5C7EE00F1EXAMPLE
 export AWS_SECRET_ACCESS_KEY=a63xWEj9ZFbigxqA7wI3Nuwj3mte3RDBdEXAMPLE
-export HACO_AWS_REGION=ap-northeast-1
+export HACO_AWS_REGION=us-west-2
 export HACO_AWS_BUCKET=examplebucket
 ```
 # Usage
@@ -25,13 +23,12 @@ export HACO_AWS_BUCKET=examplebucket
 Upload a file to bucket root directory.
 
 ```
-$ haco helloworld.java
-$ haco ~/Pictures/gopher.jpg
+$ ./haco testimg.jpg
 ```
 Upload a file as other name.
 
 ```
-$ haco foo.txt othername.txt
+$ ./haco foo.txt othername.txt
 ```
 
 Upload a file to specified directory.
