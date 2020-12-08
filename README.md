@@ -10,7 +10,7 @@ pronounced *ha-co*.
 
 1. Build with `go build`.
 
-2. Set environment variables like this, or edit testenv.sh to add your credentials, and run it with `source testenv.sh`.
+2. Set environment variables like this.
 
 ```sh
 export AWS_ACCESS_KEY_ID=C99F5C7EE00F1EXAMPLE
