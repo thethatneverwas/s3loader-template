@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export AWS_ACCESS_KEY_ID=AKIARWLGKZUTZEDBPWD6
-export AWS_SECRET_ACCESS_KEY=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
-export HACO_AWS_REGION=region
-export HACO_AWS_BUCKET=bucket
+export AWS_ACCESS_KEY_ID=[insert key here]
+export AWS_SECRET_ACCESS_KEY=[insert key here]
+export HACO_AWS_REGION=us-west-2
+export HACO_AWS_BUCKET=testbucket
